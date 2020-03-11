@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(244, 245, 244);
+}
+
+input[type=text] {
+    margin: 15px 10px;
+    padding: 5px 7px;
+    font-size: 1.2em;
+    border: 2px solid rgb(20, 56, 70);
+    border-radius: 4px;
+}
+button {
+    background-color: rgb(27, 33, 59); /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+p {
+    /* display: inline; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid #5d97b3 1px;
+    background-color: #6963be;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+.user {
+
+    display: inline-block;
+    border: solid 2px #000000;
+    text-align: left;
+
+}
+.bot {
+    display: inline-block;
+    border: solid 2px #000000;
+    text-align: right;
+}
+
+
+#box {
+    padding: 20px 10px;
+    overflow: auto;
+    max-width: 50vh;
+    min-height: 50vh;
+    max-height: 50vh;
+    border: solid 2px #000000;
+}
